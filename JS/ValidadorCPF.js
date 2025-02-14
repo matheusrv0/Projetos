@@ -1,8 +1,10 @@
 const prompt = require('prompt-sync')();
 
 function validarCPF(cpf) {
-    cpf = cpf.replace(/\D/g, ""); /* / e / são delimitadores de expressão regular, \D é qualquer caractere que não seja um dígito, 
-    g é global, ou seja, substitui todas as ocorrências, "" é o que substituirá, ou seja por nada */
+    cpf = cpf.replace(/\D/g, ""); /* 
+    / e / são delimitadores de expressão regular, \D é qualquer caractere que não seja um dígito, 
+    g é global, ou seja, substitui todas as ocorrências, "" é o que substituirá, ou seja por nada 
+    */
 
     if (cpf.length !== 11) return false; 
 

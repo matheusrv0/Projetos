@@ -14,4 +14,7 @@ node_modules/prompt-sync/test.js
 node_modules/prompt-sync/README.md
 node_modules/prompt-sync/package.json
 node_modules/prompt-sync/LICENSE
+node_modules
+package-lock.json
 .gitignore
+.vscode/settings.json

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Só pedrada!!!</h1> 
+
+    
+    <div class="imagem">
+        <img src="imagem/logosite.jpg" alt="Logo do site">
+    </div>
+
+    <div class="container"> 
+    <div class="player">
+        <p id="musica-atual">Música: Nenhuma</p>
+        <audio id="audio-player" controls>  
+        </audio>
+
+        <button onclick="tocarMusica()">Tocar</button>
+        <button onclick="pausarMusica()">Pausar</button>
+        <button onclick="proximaMusica()">Próxima</button>
+    </div>
+    
+    <div class="lista-musicas">
+        <h2>Lista de Músicas</h2>
+        <ol id="lista">
+            <li>Zé Neto e Cristiano - Bobo Fui Eu </li>
+            <li>Kiko Chicabana e @NatanzinhoLimaOficial  - Pega Pega</li>
+            <li>Hugo e Guilherme - Coração na Cama I DVD No Pelo 3</li>
+            <li>Matheus & Kauan - Incerteza - Na Praia Ao Vivo</li>
+            <li>Henrique e Juliano - COMPLETA A FRASE</li>
+            <li>Henrique e Juliano - Até Você Voltar</li>
+            <li>Tayrone - Cê Tá Preparada</li>
+            <li>SEU JUIZ - Guilherme e Santiago</li>
+            <li>Guilherme e Benuto - Nos Bares da Cidade</li>
+            <li>Henrique e Juliano - CIDADE VIZINHA</li>
+        </ol>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px; /* Reduzi o padding para melhor espaçamento */
+}
+
+h1 {
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha no topo */
+    gap: 50px; /* Espaço entre o player e a lista */
+    margin-top: 30px; /* Espaço entre a imagem e o container */
+}
+
+/* Estilo do player */
+.player {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px; /* Largura fixa para o player */
+}
+
+.player audio {
+    width: 100%; /* Faz o player de áudio ocupar toda a largura */
+    margin-top: 10px; /* Espaço acima do player de áudio */
+}
+
+.player button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.player button:hover {
+    background: #555;
+}
+
+/* Estilo da lista de músicas */
+.lista-musicas {
+    background: #1e1e1e; /* Fundo escuro para combinar com o player */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Largura fixa para a lista */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.lista-musicas h2 {
+    text-align: center; /* Centraliza o título da lista */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+.lista-musicas ol {
+    padding-left: 20px; /* Espaçamento interno para alinhar os números da lista */
+    margin: 0; /* Remove margens padrão */
+}
+
+.lista-musicas li {
+    margin-bottom: 10px; /* Espaço entre os itens da lista */
+}
+
+/* Estilo da imagem */
+.imagem {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagem img {
+    width: 300px; /* Tamanho da imagem */
+    border-radius: 10px; /* Bordas arredondadas */
+}

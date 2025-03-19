@@ -31,7 +31,7 @@ function pausarMusica() {
 }
 
 function proximaMusica() {
-    indiceAtual = (indiceAtual + 1) % musicas.length; // Calcula o próximo índice
+    indiceAtual = (indiceAtual + 1) % musicas.length;
     carregarMusica(); 
     tocarMusica(); 
 }
